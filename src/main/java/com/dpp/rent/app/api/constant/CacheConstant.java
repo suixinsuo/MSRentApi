@@ -47,4 +47,15 @@ public class CacheConstant {
 		}
 		return null;
 	}
+	
+	/**
+	 * description: 获取授权code缓存key
+	 * retrun_type:void
+	 * date: 2018年7月21日
+	 * author:jpg
+	 */
+	public static String getHxtokenKey() {
+		return new StringBuffer().append("com.dpp.rent.app.api.constant.CacheConstant.getHxtokenKey")
+				.toString();
+	}
 }
